@@ -1,22 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * UseCase4 - Search Available Rooms without Modifying State
- *
- * <p>
- * This use case demonstrates how guests can safely view available room types
- * without altering system state, ensuring separation of concerns.
- * </p>
- *
- * <p>
- * The SearchService provides read-only access to inventory and room details,
- * filtering out unavailable rooms and displaying only actionable options.
- * </p>
- *
- * @author YourName
- * @version 1.0
- */
 
 // Reusing the Room abstract class and its concrete subclasses from UseCase2
 abstract class Room {
