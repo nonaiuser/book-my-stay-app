@@ -1,22 +1,4 @@
-/**
- * UseCase2 - Room Modeling with Abstraction and Inheritance
- *
- * <p>
- * This use case demonstrates object-oriented design principles
- * by introducing abstraction, inheritance, polymorphism,
- * and encapsulation in the context of a hotel booking system.
- * </p>
- *
- * <p>
- * Different room types are modeled as concrete implementations
- * of an abstract Room class. Availability is represented using
- * simple variables to highlight limitations before introducing
- * data structures in later use cases.
- * </p>
- *
- * @author YourName
- * @version 1.0
- */
+
 
 // Abstract class representing a generalized Room concept
 abstract class Room {
